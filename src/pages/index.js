@@ -30,7 +30,7 @@ export default function Home() {
       <Tech />
     </div>
 
-    <div className='flex flex-row gap-3 mt-3'>
+    <div className='flex flex-col md:flex-row gap-3 mt-3'>
       <Commits />
       <Contact />
     </div>
