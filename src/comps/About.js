@@ -1,4 +1,5 @@
 import { IoCloseCircle } from 'react-icons/io5'
+import Link from 'next/link';
 
 const About = () => {
     return (
@@ -11,7 +12,9 @@ const About = () => {
             <p className="text-sm">With well over 10 years in the industry, I have worked at companies of every size, ranging from companies with hundreds of employess to smaller ones where the max head-count was under 20 and even at a startup where we were only a handful of individuals</p>
 
             <div className='mt-10'>
-                <span className='transition-colors p-2 rounded-md bg-white text-slate-600 hover:bg-slate-600 hover:text-green-600'>Grab a copy of my CV</span>
+                <Link href="https://drive.google.com/uc?export=download&id=1q-oBtOu6glEaLDTnh-rRMZMxqT8ljNK_" target="_blank">
+                    <span className='transition-colors p-2 rounded-md bg-white text-slate-600 hover:bg-slate-600 hover:text-green-600'>Grab a copy of my CV</span>
+                </Link>
             </div>
         </div>
     );
