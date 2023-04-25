@@ -6,31 +6,31 @@ const Commits = () => {
     let jobs = [
         {
             id: 1,
-            commitHash: 'fDyLNCD',
-            commitMessage: 'Fishgate Advertising',
-            commitDate: '2009 - 2014',
-            commitUrl: 'https://fishgate.co.za/',
+            commitHash: 'TrhUAuX',
+            commitMessage: 'Lighthouse Technologies',
+            commitDate: '2018 - Present',
+            commitUrl: 'https://www.getlighthouse.app',
         },
         {
             id: 2,
-            commitHash: 'KpCMPAR',
-            commitMessage: 'Liquorice',
-            commitDate: '2014 - 2016',
-            commitUrl: 'https://liquorice.co.za/',
-        },
-        {
-            id: 3,
             commitHash: '40Q0cMf',
             commitMessage: 'WeAreMonsters',
             commitDate: '2016 - 2018',
             commitUrl: 'https://wearemonsters.co.za/',
         },
         {
+            id: 3,
+            commitHash: 'KpCMPAR',
+            commitMessage: 'Liquorice',
+            commitDate: '2014 - 2016',
+            commitUrl: 'https://liquorice.co.za/',
+        },
+        {
             id: 4,
-            commitHash: 'TrhUAuX',
-            commitMessage: 'Lighthouse Technologies',
-            commitDate: '2018 - Present',
-            commitUrl: 'https://www.getlighthouse.app',
+            commitHash: 'fDyLNCD',
+            commitMessage: 'Fishgate Advertising',
+            commitDate: '2009 - 2014',
+            commitUrl: 'https://fishgate.co.za/',
         },
     ]
 
